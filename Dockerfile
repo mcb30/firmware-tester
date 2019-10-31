@@ -6,6 +6,7 @@ RUN dnf update -y \
 	arm-none-eabi-newlib \
 	avr-gcc \
 	avr-libc \
+	dtc \
 	findutils \
 	git-core \
 	make \
