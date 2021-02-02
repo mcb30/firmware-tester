@@ -1,6 +1,7 @@
 # Firmware build toolchain container
 
-[![Build Status](https://travis-ci.com/mcb30/firmware-tester.svg?branch=master)](https://travis-ci.com/mcb30/firmware-tester)
+[![Build](https://img.shields.io/github/workflow/status/mcb30/firmware-tester/Build)](https://github.com/mcb30/firmware-tester/actions?query=workflow%3ABuild+branch%3Amaster)
+[![Image](https://img.shields.io/docker/image-size/mcb30/firmware-tester)](https://hub.docker.com/r/mcb30/firmware-tester/)
 
 This is a recipe for building a [Docker](https://www.docker.com/)
 container preinstalled with toolchains for various embedded firmware
@@ -33,6 +34,6 @@ using:
     docker run -it --rm my-project-tester
 
 These commands can be invoked as part of a continuous integration
-system such as [Travis CI](https://travis-ci.com/), to ensure that the
-firmware's automated tests are run automatically for every commit and
-pull request.
+system such as [GitHub Actions](https://docs.github.com/actions), to
+ensure that the firmware's automated tests are run automatically for
+every commit and pull request.
